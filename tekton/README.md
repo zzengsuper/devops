@@ -54,6 +54,16 @@ kubectl get taskrun groceries-run-k24zp -o yaml
 kubectl get tr failing-run-mw2fh -o yaml
 ```
 
+## Tekton pipeline CLI
+
+```shell
+tkn pipeline start hello
+tkn pipeline start hello --showlog
+tkn pipelinerun logs hello-run-bf6h5 -f -n default
+kubectl get pipelineruns
+kubectl delete pipelinerun results-run-sb6lk
+kubectl get pipelinerun results-run-sb6lk -o yaml
+```
 
 
 
