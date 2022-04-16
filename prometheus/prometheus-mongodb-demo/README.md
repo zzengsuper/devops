@@ -2,8 +2,8 @@
 
 ## Steps to monitor third-party apps using Prometheus Exporter
 
-Pre-requisite : minikube cluster installed
-mongodb pod <-- mongoldb-exporter <-- pull metrics <-- Prometheus Server <-- PromQL <-- Prometheus UI(Grafana)
+* Pre-requisite : minikube cluster installed
+* mongodb pod <-- mongoldb-exporter <-- pull metrics <-- Prometheus Server <-- PromQL <-- Prometheus UI(Grafana)
 
 ### create minikube cluster
 
