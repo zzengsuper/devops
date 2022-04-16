@@ -25,5 +25,3 @@ scrape_configs:
     metrics_path: /prometheus/
     static_configs:
     - targets: ['docker.for.mac.localhost:8080']
-
-
