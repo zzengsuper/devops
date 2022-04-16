@@ -1,6 +1,6 @@
 # Jenkins
 
-> Setup Jenkins master node and slave node on docker
+> Setup Jenkins master node and slave node on docker  
 > Setup Prometheus and Grafana on docker to monitor and overview Jenkins performance and health
 
 ## Jenkins master setup
