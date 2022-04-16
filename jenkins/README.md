@@ -12,6 +12,7 @@ $docker run --name jenkins -itd -v `pwd`/jenkins_home:/var/jenkins_home -p 8080:
 - InitialPassword is able to check from docker logs CONTAINERID or [`pwd`/jenkins_home/secrets/initialAdminPassword]
 - Dashboard access from http://localhost:8080
 - Install plug-in
+- Get started with Jenkins
 
 ## Add slave to master
 
@@ -37,14 +38,14 @@ docker exec XXX sudo killall -HUP prometheus  #XXX is the container name
 
 After installation restart the Jenkins server
 
-### Metrics in jenkins server(optional)
+### Metrics in Jenkins server(optional)
 
 ```shell
 # accesskey should be able to check from [configure system] downbelow the [Metrics] section
 https://0.0.0.0:8080/metrics/accesskey 
 ```
 
-### Grafana sestup 
+### Grafana setup 
 
 ```shell
 docker run \
