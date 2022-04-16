@@ -1,9 +1,7 @@
 # Jenkins
 
-Environment: 
-
-Setup Jenkins master node and slave node on docker
-Setup Prometheus and Grafana on docker to monitor and overview Jenkins performance and health
+> Setup Jenkins master node and slave node on docker
+> Setup Prometheus and Grafana on docker to monitor and overview Jenkins performance and health
 
 ## Jenkins master setup
 
@@ -11,7 +9,7 @@ Setup Prometheus and Grafana on docker to monitor and overview Jenkins performan
 $docker run --name jenkins -itd -v `pwd`/jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts /bin/bash
 ```
 
-- InitialPassword could be able to check from docker logs CONTAINERID or [`pwd`/jenkins_home/secrets/initialAdminPassword]
+- InitialPassword is able to check from docker logs CONTAINERID or [`pwd`/jenkins_home/secrets/initialAdminPassword]
 - Dashboard access from http://localhost:8080
 - Install plug-in
 
