@@ -10,7 +10,7 @@ $docker run --name jenkins -itd -v `pwd`/jenkins_home:/var/jenkins_home -p 8080:
 ```
 
 - InitialPassword is able to check from docker logs CONTAINERID or [`pwd`/jenkins_home/secrets/initialAdminPassword]
-- Dashboard access from http://localhost:8080
+- Dashboard is able to access from http://localhost:8080
 - Install plug-in
 - Get started with Jenkins
 
